@@ -1,0 +1,41 @@
+\chapter{Evaluation}
+\label{cha:evaluation}
+
+Nella valutazione della Web App sono stati sviluppati alcuni \textit{usability testing} chiedendo ad un allenatore di pallavolo femminile e ad un giocatore di pallavolo (ovvero due categorie di utenti a cui mi rivolgo) di completare dei task. Da qui si è passati dall'osservazione all'analisi del comportamento all'interno dell'applicazione. Dopo questa prima fase, ho chiesto agli utenti di descrivere quali, secondo la loro prospettiva, sono i punti di forza e di debolezza, chiedendogli quali migliorie apportare. Il risultato delle interviste ha permesso di integrare quanto rilevato dall'analisi con i feedback degli utenti.
+% Questa metodologia consiste in sessioni di osservazione diretta, non intrusiva, dell’interazione tra un utente e un servizio digitale. Durante il test vengono assegnati all’utente uno o più task da svolgere; il compito dell’osservatore è quello di analizzare il comportamento nel portarli a termine. Inoltre, ho deciso di utilizzare il metodo \textit{Thinking Aloud}, che consiste nel chiedere all'utente di esprimere ad alta voce i propri pensieri mentre svolge i task assegnati. Questo metodo permette di ottenere informazioni dettagliate sulle azioni compiute dall'utente e sulle motivazioni che lo hanno portato a compierle.
+
+
+
+\section{Usability Testing}
+Questo l'elenco delle operazioni che è stato chiesto di svolgere:
+\begin{itemize}
+    \item Accedere alla Web App nella funzionalità \textit{Manual}.
+    \item Creare un nuovo progetto, inserendo i dati richiesti a loro scelta.
+    \item Abilitare \textit{Shortcut} a loro piacimento.
+    \item Testare la funzionalità di \textit{Event Tagging}.
+    \item Testare la funzionalità di \textit{Drawing}.
+    \item Creare il videoclip degli eventi taggati.
+    \item Esportare il progetto.
+    \item Ritornare al menu principale.
+    \item Utilizzare la funzionalità \textit{AI} per la traiettoria della palla.
+\end{itemize}
+
+\noindent Durante i test di usabilità della Web App gli utenti hanno definito l'applicazione intuitiva e di facile utilizzo. Gli utenti hanno particolarmente apprezzato la possibilità di assegnare valutazioni specifiche a ciascuna azione e di creare videoclip personalizzati. Tuttavia, sono emerse alcune problematiche che successivamente sono state implementate al fine di migliorare ulteriormente l'esperienza d'uso. In particolare:
+
+\begin{itemize}
+    \item \textbf{Eliminazione dei \textit{Tagged Events}}: inizialmente, la Web App non consentiva agli utenti di eliminare uno \textit{Tagged Event} attivato erroneamente, rendendo l'interfaccia meno flessibile. Per risolvere questo problema, è stato aggiunto un pulsante "X" accanto a ogni shortcut attivato, permettendo così di eliminarlo facilmente. 
+    \item \textbf{Pulsante Manuale per fare \textit{Event Tagging}}: dall'analisi del comportamento sull'uso dell'interfaccia è emersa la difficoltà nell'attivare gli \textit{Shortcut} tramite i comandi rapidi da tastiera. Per semplificare ulteriormente l'utilizzo di questa funzione è stato così aggiunto un pulsante "Manual Add" accanto ad ogni \textit{Shortcut} abilitato in modo da consentire di taggare manualmente un evento semplicemente al clic sul relativo pulsante, senza dover ricorrere per forza a combinazioni di tasti. 
+    \item \textbf{Feedback della Web App}: sempre dall'analisi del comportamento di riuso dell'applicazione è emerso che, durante la creazione videoclip e applicazione del modello AI, gli utenti percepivano una pagina statica e poco reattiva. Da qui la decisione di fornire un feedback visivo chiaro attraverso l'implementazione di un effetto di sfocatura della pagina con colori chiari, accompagnato da un'icona dinamica al centro dello schermo indicando "Creating Videoclip" o "Applying Model". Questa modifica ha reso maggiormente evidente lo stato dell'operazione in corso, migliorando la percezione di reattività dell'applicazione.
+    
+\end{itemize}
+
+\section{Feedback e Miglioramenti}
+Al termine dei test, sono stati raccolti feedback da questo campione di utenti riguardo a miglioramenti da implementare. I feedback degli allenatori hanno rispecchiato quanto individuato in fase di testing: la necessità di semplificare ulteriormente alcune componenti della Web App sopra descritte. Inoltre, sono emerse richieste aggiuntive da parte di entrambi gli utenti:
+
+\begin{itemize}
+    \item \textbf{Analisi \textit{AI}}: Sia l'allenatore che l'atleta hanno espresso l'esigenza di funzionalità \textit{AI} più avanzate. L'allenatore ha suggerito l'introduzione di un sistema di riconoscimento automatico delle azioni per evitare la fase di \textit{Event Tagging} manuale. L'atleta ha proposto invece un analisi AI più verticale ai singoli giocatori. In particolare, ha richiesto di poter visualizzare tutti i momenti in cui un determinato giocatore è protagonista di un azione. Entrambe le proposte sono state accolte e faranno parte degli sviluppi futuri di VolleyVisionAI. 
+    \item \textbf{Descrizione Clip Video}: L'atleta ha richiesto di poter avere nel videoclip generato una piccola descrizione per ogni clip, così da rendere ulteriormente più chiari i vari momenti del video. Questo miglioramento è stato implementato e ora il VideoClip generato presenta un Box in alto a destra con la descrizione "Atleta - Azione" relativa al momento visualizzato.
+    \item \textbf{Raggruppamento degli \textit{Shortcut}}: In origine, la Web App raggruppava gli eventi taggati esclusivamente per atleta e presentava una barra di ricerca per ricercarne di specifici. Il pallavolista ha suggerito di aggiungere la possibilità di filtrare i \textit{Tagged Event} anche per azione, offrendo una visualizzazione più chiara e ordinata. Questa richiesta è stata implementata con l'aggiunta di un pulsante che consente di alternare tra "View by Action" e "View by Player" nella barra di ricerca, permettendo così una visualizzazione adattabile secondo le preferenze dell'utente.
+\end{itemize}
+
+In conclusione, i test di usabilità hanno confermato che VolleyVisionAI è intuitiva e di facile utilizzo, ma hanno anche evidenziato alcune aree di miglioramento. Grazie ai feedback degli utenti, sono state implementate diverse modifiche per rendere l'interfaccia più flessibile e reattiva, migliorando così l'esperienza d'uso complessiva. Inoltre, sono state raccolte richieste di nuove funzionalità che verranno implementate in futuro per arricchire ulteriormente l'offerta della Web App.

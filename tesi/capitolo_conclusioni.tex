@@ -1,0 +1,60 @@
+\chapter{Conclusioni}
+\label{cha:conclusioni}
+
+In questo capitolo si espone l'analisi degli obiettivi raggiunti e le funzionalità di VolleyVisionAI che ho sviluppato e di come il percorso formativo seguito da studente ha influenzato il processo di progettazione e realizzazione, analizzando lo stato attuale del progetto e concludendo con riflessioni personali sul lavoro svolto e sui risultati ottenuti.
+
+\section{Raggiungimento degli obiettivi}
+
+VolleyVisionAI ha raggiunto gli obiettivi prefissati con successo, completando tutte le fasi necessarie alla realizzazione della Web App. 
+In particolare, dopo un'attenta analisi di mercato, ho definito in fase di progettazione i requisiti chiave da implementare. Successivamente ho creato un prototipo dell'interfaccia con Figma, per poi arrivare alla fase di sviluppo vera e propria. Attualmente l'app è funzionante nella sua versione Beta reperibile alla repository GitHub di FBK come VolleyVisionAI \cite{VolleyVisionAI}.
+
+
+
+
+
+
+\subsection{Funzionalità della Web App}
+
+Come descritto nel capitolo \ref{cha:analisi_progettazione}, le funzionalità sviluppate permettono all'utente di: 
+\begin{itemize}
+    \item creare, importare ed esportare progetti di analisi video personali.
+    \item creare \textit{shortcut} personalizzati specificando atleta, azione e comando rapido da tastiera.
+    \item etichettare eventi specifici durante l'analisi video utilizzando gli shortcut creati in precedenza.
+    \item raggruppare gli eventi etichettati per giocatore o azione. 
+    \item filtrare gli eventi etichettati tramite una barra di ricerca.
+    \item assegnare valutazioni a ciascun evento etichettato.
+    \item disegnare e fare annotazioni direttamente sul video tramite una \textit{dashboard} dedicata. 
+    \item richiedere all'app di generare un Videoclip contenente le azioni etichettate in precedenza.
+    \item utilizzare l'analisi AI per visualizzare la traiettoria della palla durante le fasi di gioco.
+    \item utilizzare l'analisi AI per identificare automaticamente i singoli giocatori in campo.
+\end{itemize}
+
+
+\section{Sviluppi Futuri}
+
+VolleyVisionAI è ancora in una fase Beta e sono numerose le aree di sviluppo che potenzialmente possono rendere l'app ancora più completa e funzionale. In particolare, alcuni possibili sviluppi futuri sono descritti dalle seguenti macro-categorie:
+
+\begin{itemize}
+    \item \textit{Gestione utenti}: Sarà necessario implementare un sistema di registrazione e autenticazione per consentire agli utenti di avere il proprio account personale sulla piattaforma. Questo permetterà una gestione dei progetti molto più flessibile e dinamica.
+    \item \textit{Modelli Computer Vision}: Come specificato nel nome della Web App, la direzione principale è l'implementazione di ulteriori funzionalità AI. In particolare, lo sviluppo di un modello di Computer Vision per il riconoscimento automatico delle azioni, evitando così il processo di \textit{Event Tagging} manuale. 
+    \item \textit{Open Source}: In accordo con il tutor aziendale Maurizio Napolitano, è stata presa in considerazione la possibilità di rendere il progetto VolleyVisionAI Open Source. Questo permetterebbe di velocizzare la crescita della Web App e, allo stesso tempo, diffonderla il più possibile.
+    \item \textit{Deployment}: Per rendere l'app accessibile a molti più utenti, sarà necessario implementare un sistema di deployment. L'idea è quella di utilizzare inizialmente servizi di cloud hosting e in particolare l'utilizzo di \textit{Vercel} per il Front-End e \textit{Heroku} per il Back-End.
+\end{itemize}
+
+\noindent Durante la fase di progettazione tecnica è stata definita un'architettura estremamente scalabile composta da due server: Front-End e Back-End. Anche se il deploy verrà effettuato utilizzando servizi di cloud hosting, a cui verrà delegata in gran parte la gestione delle risorse, le tecnologie utilizzate sono state scelte per garantire un'ottima scalabilità. In particolare \textit{React} e \textit{FastAPI} permettono di creare applicazioni modulari e facilmente estendibili, garantendo un'ottima manutenibilità del codice.
+
+\section{Formazione}
+
+Per la creazione dell'app VolleyVisionAI, lo studio delle tecnologie utilizzate in fase di sviluppo è stato individuale. Il corso universitario di \textit{Ingegneria del Software} mi ha aiutato in fase di analisi e progettazione a definire i requisiti funzionali e non funzionali della Web App. Inoltre, il corso di EyeStudios Academy su \textit{Figma} mi ha permesso di implementare un prototipo interattivo dell'interfaccia utente prima di passare alla fase di sviluppo tecnico. 
+Grazie all'esperienza di tirocinio formativo presso la \textit{Fondazione Bruno Kessler} ho potuto approfondire tutte le fasi dello sviluppo web. In particolare, ho acquisito competenze nell'utilizzo di \textit{React} e \textit{JavaScript}, che sono state fondamentali per la realizzazione della Web App. 
+Anche il corso di \textit{Introduction to Machine Learning} tenuto dalla professoressa Elisa Ricci mi ha aiutato nel comprendere i concetti principali di questo settore, che poi ho utilizzato durante lo sviluppo della Web App. 
+
+\section{Conclusioni Personali}
+
+Il lavoro svolto per realizzare VolleyVisionAI mi ha fornito un'occasione preziosa per applicare e approfondire le conoscenze acquisite durante il percorso universitario. 
+Lo sviluppo di un progetto pratico sarà sicuramente vantaggioso per i futuri impegni lavorativi e rappresenterà un valore aggiunto al proprio portfolio personale.
+Questo progetto, insieme all'esperienza di tirocinio, ha consolidato la mia passione per lo sviluppo web e per l'intelligenza artificiale, rendendomi consapevole del percorso formativo che intendo intraprendere in futuro.
+
+
+
+
