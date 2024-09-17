@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: biblio.bib
+Warning--to sort, need author or key in EyeStudios-Academy
+Warning--to sort, need author or key in sport4.0
+Warning--to sort, need author or key in DartFish
+Warning--to sort, need author or key in LongoMatch
+Warning--to sort, need author or key in NacSport
+Warning--to sort, need author or key in Hudl
+Warning--to sort, need author or key in Catapult
+Warning--to sort, need author or key in Data-Volley4.0
+Warning--to sort, need author or key in BallTime
+Warning--to sort, need author or key in VolleyVisionAI
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            540 strings with 4919 characters,
+and the built_in function-call counts, 1702 in all, are:
+= -- 170
+> -- 10
+< -- 0
++ -- 10
+- -- 0
+* -- 52
+:= -- 201
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 70
+empty$ -- 231
+format.name$ -- 0
+if$ -- 421
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 0
+newline$ -- 53
+num.names$ -- 0
+pop$ -- 100
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 49
+stack$ -- 0
+substring$ -- 50
+swap$ -- 10
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 10
+while$ -- 0
+width$ -- 12
+write$ -- 92
+(There were 10 warnings)

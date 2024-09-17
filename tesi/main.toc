@@ -1,0 +1,65 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Abstract}{3}{}%
+\contentsline {chapter}{\numberline {1}Introduzione}{4}{}%
+\contentsline {chapter}{\numberline {2}Stato dell'Arte}{5}{}%
+\contentsline {section}{\numberline {2.1}Sport 4.0}{5}{}%
+\contentsline {section}{\numberline {2.2}Analisi delle Performance}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}Esempi}{6}{}%
+\contentsline {subsubsection}{Dispositivi Indossabili}{6}{}%
+\contentsline {subsubsection}{Sistemi di Analisi Biomeccanica}{6}{}%
+\contentsline {subsubsection}{Software di Analisi Video}{6}{}%
+\contentsline {section}{\numberline {2.3}Competitors}{6}{}%
+\contentsline {subsection}{\numberline {2.3.1}Video Analysis}{7}{}%
+\contentsline {subsubsection}{Dartfish}{7}{}%
+\contentsline {subsubsection}{LongoMatch}{7}{}%
+\contentsline {subsubsection}{NAC Sport}{7}{}%
+\contentsline {subsection}{\numberline {2.3.2}Hybrid Systems}{8}{}%
+\contentsline {subsubsection}{Hudl}{8}{}%
+\contentsline {subsubsection}{Catapult}{8}{}%
+\contentsline {subsection}{\numberline {2.3.3}Volleyball Specific}{9}{}%
+\contentsline {subsubsection}{DataVolley 4.0}{9}{}%
+\contentsline {subsubsection}{BallTime}{9}{}%
+\contentsline {chapter}{\numberline {3}Analisi e progettazione}{10}{}%
+\contentsline {section}{\numberline {3.1}Perché una Web App?}{10}{}%
+\contentsline {section}{\numberline {3.2}Analisi dei Requisiti}{11}{}%
+\contentsline {subsection}{\numberline {3.2.1}Requisiti Funzionali}{11}{}%
+\contentsline {subsection}{\numberline {3.2.2}Requisiti Non Funzionali}{12}{}%
+\contentsline {section}{\numberline {3.3}Progettazione}{12}{}%
+\contentsline {subsection}{\numberline {3.3.1}Personas e Scenari}{12}{}%
+\contentsline {subsubsection}{Personas}{12}{}%
+\contentsline {subsubsection}{Scenari}{12}{}%
+\contentsline {subsection}{\numberline {3.3.2}Struttura e Interfaccia}{13}{}%
+\contentsline {subsection}{\numberline {3.3.3}Server}{13}{}%
+\contentsline {chapter}{\numberline {4}Sviluppo e implementazione}{14}{}%
+\contentsline {section}{\numberline {4.1}Tecnologie utilizzate}{14}{}%
+\contentsline {subsection}{\numberline {4.1.1}Node.js}{14}{}%
+\contentsline {subsection}{\numberline {4.1.2}React.js}{14}{}%
+\contentsline {subsection}{\numberline {4.1.3}Figma}{14}{}%
+\contentsline {subsection}{\numberline {4.1.4}Uvicorn}{15}{}%
+\contentsline {subsection}{\numberline {4.1.5}FastAPI}{15}{}%
+\contentsline {subsection}{\numberline {4.1.6}YOLOv9 }{15}{}%
+\contentsline {subsection}{\numberline {4.1.7}OpenCV}{15}{}%
+\contentsline {section}{\numberline {4.2}Implementazione}{16}{}%
+\contentsline {subsection}{\numberline {4.2.1}Architettura}{16}{}%
+\contentsline {section}{\numberline {4.3}UI e Funzionamento Web App}{17}{}%
+\contentsline {subsection}{\numberline {4.3.1}Menu iniziale}{17}{}%
+\contentsline {subsection}{\numberline {4.3.2}Analisi Manuale}{17}{}%
+\contentsline {subsubsection}{Add Shortcut}{18}{}%
+\contentsline {subsubsection}{Shortcut Summary}{18}{}%
+\contentsline {subsubsection}{Tagged Events}{18}{}%
+\contentsline {subsubsection}{Video Player}{19}{}%
+\contentsline {subsubsection}{Export \& Create Videoclip}{19}{}%
+\contentsline {subsection}{\numberline {4.3.3}Analisi AI}{20}{}%
+\contentsline {subsubsection}{Ball Trajectory}{20}{}%
+\contentsline {subsubsection}{Players Identification}{20}{}%
+\contentsline {chapter}{\numberline {5}Evaluation}{21}{}%
+\contentsline {section}{\numberline {5.1}Usability Testing}{21}{}%
+\contentsline {section}{\numberline {5.2}Feedback e Miglioramenti}{22}{}%
+\contentsline {chapter}{\numberline {6}Conclusioni}{23}{}%
+\contentsline {section}{\numberline {6.1}Raggiungimento degli obiettivi}{23}{}%
+\contentsline {subsection}{\numberline {6.1.1}Funzionalità della Web App}{23}{}%
+\contentsline {section}{\numberline {6.2}Sviluppi Futuri}{23}{}%
+\contentsline {section}{\numberline {6.3}Formazione}{24}{}%
+\contentsline {section}{\numberline {6.4}Conclusioni Personali}{24}{}%
+\contentsline {chapter}{Bibliografia}{24}{}%
